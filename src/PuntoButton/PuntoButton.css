@@ -1,0 +1,10 @@
+.punto-button{
+  background-color: blue;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}

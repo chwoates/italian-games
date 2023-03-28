@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.punto-line{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  background-color: rgb(21, 217, 220);
+  justify-content: space-around;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.book-image{
+  height: 70%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game-box{
   display: flex;
   flex-direction: column;
+  width: 400px;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timer-box{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 130px;
+  background-color:rgb(128, 0, 128);
+  color: white;
+  border: none;
+  border-radius: 5px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
+}
+
+.word-box{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 130px;
+  width: 400px;
+  background-color:purple;
   color: white;
+  font-size: 28px;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.points-box{
+  display: flex;
+  flex-direction: column;
+  background-color:purple;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.all-done{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, rgb(119, 0, 255), red);
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 36px;
 }

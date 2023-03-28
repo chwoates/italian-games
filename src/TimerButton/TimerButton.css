@@ -1,0 +1,18 @@
+.stop-button, .restart-button{
+  background-color: blue;
+  color: white;
+  height: 40px;
+  font-size: 18px;
+}
+
+.restart-button{
+
+}
+
+.timer-reset-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%;
+}

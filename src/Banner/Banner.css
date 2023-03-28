@@ -1,0 +1,11 @@
+.banner-top{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-image:linear-gradient(to bottom right, rgb(119, 0, 255), red);
+  font-size: 32px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
