@@ -4,7 +4,7 @@
   width: 100%;
   background-image:linear-gradient(to bottom right, rgb(119, 0, 255), red);
   font-size: 32px;
-  font-family: 'Roboto';
+  font-family:'Roboto';
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
